@@ -1,12 +1,14 @@
 {
-  "name": "envoy-enphase",
+  "name": "enphase-envoy",
   "version": "0.0.1",
   "license": "MIT",
   "scripts": {
     "build": "nx build",
-    "test": "nx test"
+    "test": "nx test",
+    "run": "node dist/enphase-envoy/"
   },
   "dependencies": {
+    "axios": "1.5.0",
     "tslib": "^2.3.0"
   },
   "devDependencies": {

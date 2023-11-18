@@ -14,7 +14,7 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "envoy-enphase": ["src/index.ts"]
+      "enphase-envoy": ["src/index.ts"]
     },
     "types": ["vitest"]
   },
